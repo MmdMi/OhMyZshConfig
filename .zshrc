@@ -72,16 +72,15 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
 	git
+	git-flow
 	zsh-autosuggestions
 	zsh-syntax-highlighting
-	composer
 	docker
 	docker-compose
 	docker-machine
+	composer
 	laravel
 	npm
-	git-flow
-	cp
 	)
 
 source $ZSH/oh-my-zsh.sh
