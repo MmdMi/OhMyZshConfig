@@ -18,4 +18,4 @@ pip3 install thefuck --user
 fuck
 fuck
 
-echo "${GREEN}Finitsh...\r\n${YELLOW}Please reload terminal to load new configure${NC}"
+echo "${GREEN}Finitsh...\r\n${YELLOW}For applying changes run source ~/.zshrc or restart your shell.${NC}"
