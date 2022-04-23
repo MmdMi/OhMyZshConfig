@@ -9,6 +9,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 echo "${CYAN}Clone zsh-syntax-highlighting...${NC}"
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 echo "${CYAN}Replace new config file (.zshrc)...${NC}"
+sudo cp .zshrc ~/.zshrc
 
 #sudo apt update
 #sudo apt install python3-dev python3-pip python3-setuptools
@@ -17,5 +18,4 @@ pip3 install thefuck --user
 fuck
 fuck
 
-sudo cp .zshrc ~/.zshrc
 echo "${GREEN}Finitsh...\r\n${YELLOW}Please reload terminal to load new configure${NC}"
